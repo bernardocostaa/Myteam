@@ -2,6 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      tablet: "330px",
+      laptop: "690px",
+      desktop: "1100px",
+    },
     colors: {
       MidnightGreen: "#014E56",
       LightCoral: "#F67E7E",
@@ -10,11 +15,13 @@ export default {
       DeepJungleGreen: "#004047",
       SacramentoStateGreen: "#012F34",
       DarkGreen: "#002529",
+      white:'#fff'
     },
-    fontFamily: {
-      'livvic': ["Livvic", "sans-serif"],
+    extend: {
+      backgroundImage: {
+        'footer-texture': "url('./src/imgs/bg-pattern-home-6-about-5.svg')",
+      }
     },
-    extend: {},
   },
   plugins: [],
 };

@@ -3,3 +3,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .fontBody-1 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .fontBody-2 {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    line-height: 25px;
+  }
+
+  .fontH2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  .bg-section-footerImg {
+    background: #f67e7e url("./imgs/bg-pattern-home-6-about-5.svg") no-repeat
+      bottom left;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Livvic", "sans-serif";
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

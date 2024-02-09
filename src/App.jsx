@@ -10,16 +10,20 @@ import Pagina404 from "./components/Pagina404";
 
 function App() {
   return (
-   <BrowserRouter>
-   <Header />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="contact" element={<Contact />} />
-      <Route path="*" element={<Pagina404 />} />
-    </Routes>
-    <Footer />
-   </BrowserRouter>
+    <div className="App">
+      <BrowserRouter>
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<Pagina404 />} />
+          </Routes>
+        </main>
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 }
 
