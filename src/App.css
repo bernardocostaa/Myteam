@@ -17,6 +17,12 @@
     line-height: 25px;
   }
 
+  .fontH1{
+    font-size: 6.25rem;
+    font-weight: 700;
+    line-height: 100px;
+  }
+
   .fontH2 {
     font-size: 3rem;
     font-weight: 700;
@@ -26,6 +32,10 @@
   .bg-section-footerImg {
     background: #f67e7e url("./imgs/bg-pattern-home-6-about-5.svg") no-repeat
       bottom left;
+  }
+
+  .w-625{
+    width: 625px;
   }
 }
 
@@ -39,4 +49,8 @@
 img {
   max-width: 100%;
   display: block;
+}
+
+ul li a.active{
+  color: #f67e7e;
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../imgs/logo.svg";
 
 const Header = () => {
   return (
     <header className="bg-MidnightGreen">
-      <nav className="desktop:container mx-auto px-4 items-center flex justify-between pt-16 fontBody-1">
+      <nav className="desktop:container mx-auto px-5 items-center flex justify-between pt-16 fontBody-1">
         <ul className="flex items-center gap-10 text-white ">
           <li className="mr-10">
             <Link className="p-2" to="/">
@@ -13,17 +13,21 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link className="p-2  hover:text-LightCoral duration-300" to="/">
+            <NavLink
+              className="p-2  hover:text-LightCoral duration-300"
+              to="/"
+              end
+            >
               home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link
+            <NavLink
               className="p-2  hover:text-LightCoral duration-300"
               to="about"
             >
               about
-            </Link>
+            </NavLink>
           </li>
         </ul>
         <Link

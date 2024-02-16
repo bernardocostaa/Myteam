@@ -17,11 +17,7 @@ export default {
       DarkGreen: "#002529",
       white:'#fff'
     },
-    extend: {
-      backgroundImage: {
-        'footer-texture': "url('./src/imgs/bg-pattern-home-6-about-5.svg')",
-      }
-    },
+    extend: {},
   },
   plugins: [],
 };
