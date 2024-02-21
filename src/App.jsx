@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Pagina404 from "./components/Pagina404";
+import React from "react";
 
 function App() {
   return (
