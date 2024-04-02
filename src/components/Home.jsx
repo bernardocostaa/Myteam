@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <section className={`${Styles.bgSection}`}>
-        <div className="desktop:container mx-auto px-5">
+        <div className="customContainer mx-auto px-5">
           <div className="flex">
             <h1 className="fontH1 text-white font-bold flex-2 w-625 ">
               Find the <br /> best{" "}
@@ -25,9 +25,9 @@ const Home = () => {
         </div>
       </section>
       <section className={Styles.bgSectionMore}>
-        <div className="desktop:container mx-auto px-5">
+        <div className="customContainer mx-auto px-5">
           <div className="flex justify-between">
-            <h1 className="text-white fontH2 max-w-md">
+            <h1 className="text-white fontH2 max-w-md relative  before:w-12 before:h-1 before:bg-LightCoral before:absolute before:-top-[50px]">
               Build & manage distributed teams like no one else.
             </h1>
             <div className="max-w-lg">

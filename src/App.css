@@ -17,7 +17,7 @@
     line-height: 25px;
   }
 
-  .fontH1{
+  .fontH1 {
     font-size: 6.25rem;
     font-weight: 700;
     line-height: 100px;
@@ -34,8 +34,31 @@
       bottom left;
   }
 
-  .w-625{
+  .w-625 {
     width: 625px;
+  }
+
+  .customContainer {
+    width: 100%;
+    max-width: initial;
+  }
+
+  @media screen and (min-width: 330px) {
+    .customContainer {
+      max-width: 330px;
+    }
+  }
+
+  @media screen and (min-width: 690px) {
+    .customContainer {
+      max-width: 690px;
+    }
+  }
+
+  @media screen and (min-width: 1110px) {
+    .customContainer {
+      max-width: 1110px;
+    }
   }
 }
 
@@ -51,6 +74,6 @@ img {
   display: block;
 }
 
-ul li a.active{
+ul li a.active {
   color: #f67e7e;
 }

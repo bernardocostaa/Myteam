@@ -5,7 +5,7 @@ import logo from "../imgs/logo.svg";
 const Header = () => {
   return (
     <header className="bg-MidnightGreen">
-      <nav className="desktop:container mx-auto px-5 items-center flex justify-between pt-16 fontBody-1">
+      <nav className="customContainer mx-auto px-5 items-center flex justify-between pt-16 fontBody-1">
         <ul className="flex items-center gap-10 text-white ">
           <li className="mr-10">
             <Link className="p-2" to="/">

@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
       <section className="bg-section-footerImg">
-        <div className="desktop:container mx-auto px-5 flex items-center justify-around py-16">
+        <div className="customContainer mx-auto px-5 flex items-center justify-around py-16">
           <h1 className="fontH2 text-DarkGreen">Ready to get started?</h1>
           <Link
             to="contact"
@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
       </section>
       <footer className="bg-DarkGreen py-12">
-        <div className="desktop:container mx-auto px-5 flex justify-between">
+        <div className="customContainer mx-auto px-5 flex justify-between">
           <div className="flex gap-32">
             <div>
               <img className="mb-10" src={logo} alt="logo da empresa" />
