@@ -3,6 +3,10 @@ import Styles from "./css/Home.module.css";
 import person from "../imgs/icon-person.svg";
 import conf from "../imgs/icon-cog.svg";
 import graph from "../imgs/icon-chart.svg";
+import profile1 from "../imgs/avatar-kady.jpg"
+import profile2 from "../imgs/avatar-aiysha.jpg"
+import profile3 from "../imgs/avatar-arthur.jpg"
+import queote from '../imgs/icon-quotes.svg'
 
 const Home = () => {
   return (
@@ -72,6 +76,34 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section>
+      <section className={`${Styles.bgSectionStories}`}>
+      <div className="customContainer mx-auto px-5">
+        <h1 className="text-white fontH2 max-w-[930px] text-center my-auto mx-auto mb-14">Delivering real results for top companies. Some of our <span className="text-RaptureBlue">success stories.</span></h1>
+        <div className="flex gap-5">
+          <div className={`relative text-center max-w-[350px]`}>
+          <img className={`${Styles.effectImg}`} src={queote} alt="" />
+            <p className="fontBody-2 text-white relative"> “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”</p>
+            <h4 className="fontBody-1 text-RaptureBlue pt-6 pb-1">Kady Baker</h4>
+            <p className="text-[0.8125rem] font-medium italic text-white">Product Manager at Bookmark</p>
+            <img className="w-16 h-16 rounded-full border-2 border-RaptureBlue mx-auto mt-8" src={profile1} alt="" />
+          </div>
+          <div className={`relative text-center max-w-[350px]`}>
+            <img className={`${Styles.effectImg}`} src={queote} alt="" />
+            <p className="fontBody-2 text-white relative"> “We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”</p>
+            <h4 className="fontBody-1 text-RaptureBlue pt-6 pb-1">Aiysha Reese</h4>
+            <p className="text-[0.8125rem] font-medium italic text-white">Founder of Manage</p>
+            <img className="w-16 h-16 rounded-full border-2 border-RaptureBlue mx-auto mt-8" src={profile2} alt="" />
+          </div>
+          <div className={` relative text-center max-w-[350px]`}>
+          <img className={`${Styles.effectImg}`} src={queote} alt="" />
+            <p className="fontBody-2 text-white relative"> “Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”</p>
+            <h4 className="fontBody-1 text-RaptureBlue pt-6 pb-1">Arthur Clarke</h4>
+            <p className="text-[0.8125rem] font-medium italic text-white">Co-founder of MyPhysio</p>
+            <img className="w-16 h-16 rounded-full border-2 border-RaptureBlue mx-auto mt-8" src={profile3} alt="" />
+          </div>
+        </div>
+      </div>
       </section>
     </>
   );
