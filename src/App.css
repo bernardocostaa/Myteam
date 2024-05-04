@@ -39,13 +39,12 @@
   }
 
   .customContainer {
-    width: 100%;
-    max-width: initial;
+    max-width: 100%;
   }
 
   @media screen and (min-width: 330px) {
     .customContainer {
-      max-width: 330px;
+      max-width: 100%;
     }
   }
 

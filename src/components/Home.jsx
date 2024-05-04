@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <section className={`${Styles.bgSection}`}>
         <div className="customContainer mx-auto px-5">
-          <div className="flex">
+          <div className="flex desktop:flex-row  laptop:flex-col">
             <h1 className="fontH1 text-white font-bold flex-2 w-625 ">
               Find the <br /> best{" "}
               <span className="text-LightCoral">talent</span>
