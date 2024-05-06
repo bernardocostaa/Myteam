@@ -43,3 +43,18 @@
   opacity: 0.8;
 
 }
+
+@media(max-width:768px){
+  .bgSection{
+    background: #014e56 ;
+    padding: 80px 0 160px 0;
+  }
+  .bgSection::before{
+    background: url(/src/imgs/bg-pattern-home-2.svg) no-repeat bottom;
+  }
+  .bgSectionMore{
+    background: #012f34 url(/src/imgs/bg-pattern-home-3.svg) no-repeat top
+    right -100px;
+  }
+}
+
