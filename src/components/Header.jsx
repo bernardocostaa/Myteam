@@ -10,7 +10,7 @@ const Header = () => {
   };
   return (
     <header className="bg-MidnightGreen relative">
-      <nav className="customContainer mx-auto px-5 items-center flex justify-between pt-6 desktop:pt-16 fontBody-1">
+      <nav className="customContainer mx-auto px-5 items-center flex justify-between pt-6 desktop:pt-16 fontMenu">
         <div className="mr-10">
           <Link className="p-2" to="/">
             <img src={logo} alt="Logo da empresa" />
@@ -29,7 +29,7 @@ const Header = () => {
           <ul className="flex items-center gap-10 text-white ">
             <li>
               <NavLink
-                className="p-2  hover:text-LightCoral duration-300"
+                className="p-2   hover:text-LightCoral duration-300"
                 to="/"
                 end
               >
@@ -38,7 +38,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                className="p-2  hover:text-LightCoral duration-300"
+                className="p-2   hover:text-LightCoral duration-300"
                 to="about"
               >
                 about
@@ -46,7 +46,7 @@ const Header = () => {
             </li>
           </ul>
           <Link
-            className="text-white border-2 duration-300 border-white rounded-3xl py-2.5 px-8 hover:bg-white hover:text-DarkGreen"
+            className="text-white  border-2 duration-300 border-white rounded-3xl py-2.5 px-8 hover:bg-white hover:text-DarkGreen"
             to="contact"
           >
             contact us

@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 @layer utilities {
-  .fontBody-1 {
+  .fontMenu {
     font-size: 1.125rem;
     font-weight: 600;
     line-height: 28px;
@@ -41,6 +41,10 @@
   }
 
   @media screen and (min-width: 330px) {
+    .bg-section-footerImg {
+      background: #f67e7e url("./imgs/bg-pattern-home-6-about-5.svg") no-repeat
+        bottom -20px left;
+    }
     .customContainer {
       max-width: 100%;
     }
@@ -53,6 +57,18 @@
       font-weight: 700;
       line-height: 48px;
     }
+    .fontH1Small {
+      font-size:2.5rem;
+      font-weight: 700;
+      line-height: 56px;
+    }
+
+    .fontBody-1 {
+      font-size: 0.9375rem;
+      font-weight: 600;
+      line-height: 28px;
+    }
+   
   }
 
   @media screen and (min-width: 690px) {
@@ -63,7 +79,16 @@
       font-size: 4rem;
       line-height: normal;
     }
-  
+    .fontH1Small {
+      font-size: 4rem;
+      font-weight: 700;
+      line-height: 56px;
+    }
+    .fontBody-1 {
+      font-size: 0.9375rem;
+      font-weight: 600;
+      line-height: 28px;
+    }
   }
 
   @media screen and (min-width: 1110px) {
@@ -75,10 +100,21 @@
       font-weight: 700;
       line-height: 100px;
     }
+    .fontH1Small {
+      font-size: 4rem;
+      font-weight: 700;
+      line-height: 56px;
+    }
     .fontH2 {
       font-size: 3rem;
       font-weight: 700;
       line-height: 48px;
+    }
+
+    .fontBody-1 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      line-height: 28px;
     }
   }
 }
