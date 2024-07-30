@@ -37,7 +37,6 @@ const Home = () => {
             <div className="max-w-lg">
               <div className="flex flex-col items-center text-center laptop:text-start laptop:flex-row gap-5 mb-8 laptop:items-start">
                 <img className="w-20" src={person} alt="" />
-
                 <div>
                   <p className="fontBody-1 text-LightCoral mb-4">
                     Experienced Individuals

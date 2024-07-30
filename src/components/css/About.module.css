@@ -18,6 +18,12 @@
     position: absolute;
     bottom: 0;
   }
+
+  .bgClient{
+    background: #012F34 url(/src/imgs/bg-pattern-about-4.svg) no-repeat top left;
+    padding: 140px 0;
+    position: relative;
+  }
   
   @media(max-width:768px){
     .bgSection{
@@ -26,4 +32,18 @@
       padding-bottom: 120px;
     }
 
+    .bgClient{
+      background: #012F34 url(/src/imgs/bg-pattern-about-4.svg) no-repeat top -90px left;
+      padding: 100px 0;
+      position: relative;
+    }
+
+  }
+
+  @media(max-width:375px){
+    .bgClient{
+      background: #012F34 url(/src/imgs/bg-pattern-about-4.svg) no-repeat top -90px left -120px;
+      padding: 90px 0;
+      position: relative;
+    }
   }

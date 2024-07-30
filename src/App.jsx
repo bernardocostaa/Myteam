@@ -1,28 +1,38 @@
-import react from "react";
+import React from "react";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Pagina404 from "./components/Pagina404";
-import React from "react";
+
+function AppContent() {
+  const location = useLocation();
+  const showSection = location.pathname !== "/contact";
+
+  return (
+    <>
+      <Header />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<Pagina404 />} />
+        </Routes>
+      </main>
+      <Footer showSection={showSection} />
+    </>
+  );
+}
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header />
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="*" element={<Pagina404 />} />
-          </Routes>
-        </main>
-        <Footer />
+        <AppContent />
       </BrowserRouter>
     </div>
   );
