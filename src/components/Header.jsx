@@ -53,7 +53,7 @@ const Header = () => {
           </Link>
         </div>
         {menuMobile && (
-          <div className="block laptop:hidden absolute bg-menu-mobile top-0 right-0 max-w-[255px] w-full min-h-screen z-10 pt-14 bg">
+          <div className="block laptop:hidden absolute bg-menu-mobile top-0 right-0 max-w-[255px] w-full min-h-screen  pt-14 bg z-50">
             <button
               onClick={() => {
                 setMenuMobile(!menuMobile);

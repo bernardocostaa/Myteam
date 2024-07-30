@@ -19,7 +19,7 @@ const Contact = () => {
     message: ''
   });
 
-  // Função para validar o formulário
+
   const validateForm = () => {
     let valid = true;
     const newErrors = {};
@@ -57,7 +57,7 @@ const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (validateForm()) {
-      // Aqui você pode adicionar o código para enviar os dados do formulário
+  
       console.log('Form submitted');
     }
   };
