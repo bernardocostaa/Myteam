@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img alt="" src="https://raw.githubusercontent.com/bernardocostaa/Shortly/main/templete.jpg" width="100%">
+  <img alt="" src="https://github.com/bernardocostaa/Myteam/blob/main/templete.jpg" width="100%">
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@ Link do Projeto: [Myteam](https://myteamjs.netlify.app/)
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/bernardocostaa/Shortly/blob/main/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/bernardocostaa/Myteam/blob/main/LICENSE) para mais detalhes.
 
 ---
 
